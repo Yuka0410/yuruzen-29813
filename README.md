@@ -81,6 +81,8 @@ mysql2
 | --------------  | ------- | ----------- |
 | nickname        | string  | null: false |
 | email           | string  | null: false |
+| family_name     | string  | null: false |
+| first_name      | string  | null: false |
 | password        | string  | null: false |
 | constitution_id | integer | null: false |
 
