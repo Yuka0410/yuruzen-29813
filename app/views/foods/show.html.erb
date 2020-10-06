@@ -1,0 +1,40 @@
+<%#= render "shared/header" %>
+
+<%# 食品の概要 %>
+<div class="item-show">
+  <div class="item-box">
+    <h2 class="name">
+      <%#= @food_name.name %>
+    </h2>
+    <div class='item-img-content'>
+      <%#= image_tag @food.image, class:"item-box-img" %>
+    </div>
+    <div class="item-price-box">
+      <span class="item-price">
+        ¥<%#= @item.price %>
+      </span>
+      <span class="item-postage">
+        (税込) 送料込み
+      </span>
+    </div>
+
+  <%# 下部ボタン %>
+    <div class="sell-btn-contents">
+      <%#=link_to 'もどる', item_path(@item.id), class:"back-btn" %>
+    </div>
+    <%# /下部ボタン %>
+
+ 
+
+  <div class="links">
+    <a href="#" class="change-item-btn">
+      ＜ 前の食材
+    </a>
+    <a href="#" class="change-item-btn">
+      後ろの食材 ＞
+    </a>
+  </div>
+</div>
+
+<%#= render "shared/footer" %>
+
