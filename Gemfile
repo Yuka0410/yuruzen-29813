@@ -57,3 +57,4 @@ group :production do #productionは本番環境
   gem 'rails_12factor'
 end
 gem 'carrierwave', '~> 2.0'
+gem 'devise'
